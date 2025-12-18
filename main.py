@@ -19,11 +19,7 @@ def main():
     # Initializes Pygame
     pygame.init()
 
-    # info = pygame.display.Info()
-    # DISPLAY_MAX_SIZE = (info.current_w, info.current_h)
-
     # Sets up the game display window
-    fullscreen = False
     screen = set_windowed()
 
     pygame.display.set_caption("Kingdom Survival")
